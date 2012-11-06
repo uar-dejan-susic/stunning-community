@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StunningCommunity.Web", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StunningCommunity.Tests", "StunningCommunity.Tests\StunningCommunity.Tests.csproj", "{2FFDD3A6-208B-4908-A57C-A4575DF12E04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StunningCommunity.Model", "StunningCommunity.Model\StunningCommunity.Model.csproj", "{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +21,15 @@ Global
 		{2FFDD3A6-208B-4908-A57C-A4575DF12E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FFDD3A6-208B-4908-A57C-A4575DF12E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FFDD3A6-208B-4908-A57C-A4575DF12E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
