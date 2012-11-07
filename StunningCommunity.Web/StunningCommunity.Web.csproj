@@ -283,6 +283,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StunningCommunity.Data\StunningCommunity.Data.csproj">
+      <Project>{a54cc51c-81ad-498c-851a-3002abdc2a66}</Project>
+      <Name>StunningCommunity.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StunningCommunity.Model\StunningCommunity.Model.csproj">
+      <Project>{7f8e0f7a-e5bf-48a9-bf49-bf839a4f4f43}</Project>
+      <Name>StunningCommunity.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

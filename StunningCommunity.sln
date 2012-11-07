@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StunningCommunity.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StunningCommunity.Model", "StunningCommunity.Model\StunningCommunity.Model.csproj", "{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StunningCommunity.Data", "StunningCommunity.Data\StunningCommunity.Data.csproj", "{A54CC51C-81AD-498C-851A-3002ABDC2A66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8E0F7A-E5BF-48A9-BF49-BF839A4F4F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54CC51C-81AD-498C-851A-3002ABDC2A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54CC51C-81AD-498C-851A-3002ABDC2A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54CC51C-81AD-498C-851A-3002ABDC2A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54CC51C-81AD-498C-851A-3002ABDC2A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
